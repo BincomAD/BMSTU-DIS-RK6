@@ -1,2 +1,3 @@
-# BMSTU-DIS-RK6
-Labs and Lessons on the BMSTU course development of Information System
+# LAB1
+Задание.
+ Разработать blueprint, реализующий выполнение n запросов к базе данных supermarket, где n> 1. Разработать главное меню для перехода в blueprint.
