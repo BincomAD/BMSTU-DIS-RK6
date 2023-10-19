@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результат запроса</title>
+</head>
+<body>
+    <h1>N продуктов</h1>
+    <ul>
+        <tr>
+            <td>ID | </td>
+            <td>Name | </td>
+            <td>Price | </td>
+            <td>Category | </td>
+            <td>Count | </td>
+        </tr>
+        <br>
+        {% for result in results %}
+            <tr>
+                <td>{{ result[0] }} | </td>
+                <td>{{ result[1] }} | </td>
+                <td>{{ result[2] }} | </td>
+                <td>{{ result[3] }} | </td>
+                <td>{{ result[4] }} </td>
+            </tr>
+            <br>
+        {% endfor %}
+    </ul>
+    <a href="/">Вернуться в главное меню</a>
+</body>
+</html>
